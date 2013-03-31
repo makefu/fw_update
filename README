@@ -1,4 +1,12 @@
-    fw_update
+Use with USB IR Toy v2
+======================
+Desperately searching for the 'working' fw_update this project seemes to do the right thing with
+
+    ./fw_update -e -w -v -m all -vid 0x04D8 -pid 0xFD0B -ix USBIRToy.v22.hex PATH/TO/USBIRToy.v22.hex
+
+download the package from http://code.google.com/p/dangerous-prototypes-open-hardware/downloads/detail?name=USBIRToy.package.v22.zip&can=2&q=
+
+fw_update
 ====================
 
 The Diolan USB BootLoader is a simple way to update firmware
